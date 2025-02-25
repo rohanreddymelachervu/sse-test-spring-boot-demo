@@ -2,7 +2,7 @@ spring:
   application:
     name: SSE-Test
   redis:
-    host: localhost
+    host: my-redis-master.redis.svc.cluster.local
     port: 6379
     database: 0
     timeout: 2000
