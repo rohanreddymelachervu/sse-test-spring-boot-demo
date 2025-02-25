@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: SSE-Test
+  redis:
+    host: localhost
+    port: 6379
+    database: 0
+    timeout: 2000
+    password: ${REDIS_PASSWORD}
+    channel:
+      sse: sse-channel
+server:
+  servlet:
+    context-path: /sse
+  port: 8080
+
